@@ -1,0 +1,34 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "SG3PKEN7ZP.com.amarssoft.Explorly.staging",
+          "SG3PKEN7ZP.com.amarssoft.Explorly"
+        ],
+        "components": [
+          {
+            "/": "/reset-password",
+            "?": {
+              "token": "?*"
+            },
+            "comment": "Matches URL with a /reset-password path and that has a query item with name 'token' and a value of one or more characters."
+          },
+          {
+            "/": "/confirm-email",
+            "?": {
+              "token": "?*"
+            },
+            "comment": "Matches URL with a /confirm-email path and that has a query item with name 'token' and a value of one or more characters."
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "SG3PKEN7ZP.com.amarssoft.Explorly.staging",
+      "SG3PKEN7ZP.com.amarssoft.Explorly"
+    ]
+  }
+}
